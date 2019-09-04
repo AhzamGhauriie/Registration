@@ -1,0 +1,78 @@
+
+body{
+margin: 0;
+padding: 0;
+background: url(bggg.jpg);
+background-size: cover;
+font-family: sans-serif;
+}
+.loginbox{
+width: 400px;
+height: 550px;
+background-color: rgba(0, 0, 0, 0.8);
+color: #fff;
+position: absolute;
+box-sizing: border-box;
+transform: translate(-50%,-50%);
+left: 50%;
+top: 50%;
+padding: 70px ,30px;
+}
+.avatarbox{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    color: black;
+    transform: translate(-50%,0%);
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 50%;
+    }
+    .avatarbox img{
+        width: 100px;
+    }
+    h1{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 22px;
+        padding: 0 0 20px;  
+    }
+    .formbox{
+        width: 100%;
+        margin-left: 40px;
+        
+    }
+    .formbox p{
+        margin: 0;
+        padding: 0;
+        font-weight: bold; 
+    }
+    .formbox input{
+        width: 300px;
+        margin-bottom: 10px;
+    }
+   
+    .formbox input[type="text"],.formbox input[type="email"],.formbox input[type="password"]{
+        border: 0;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        background: transparent;
+    height: 40px;
+    color: rgb(29, 153, 175);
+    font-size: 15px;
+    }
+    .formbox input[type="text"]:focus, .formbox input[type="email"]:focus,.formbox input[type="password"]:focus
+    {
+        border-bottom: #ff0;
+        }
+    .formbox input[type="submit"],.formbox input[type="reset"]{
+        outline: 0;
+        border: 0;
+        color: #fff;
+        background: rgb(29, 153, 175);
+        border-radius: 20px;
+        font-size: 18px;
+        height: 40px ;
+    }
